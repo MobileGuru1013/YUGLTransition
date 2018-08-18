@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D3FF67E1888DC590015FF23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3FF67D1888DC590015FF23 /* Foundation.framework */; };
+		9D3FF6801888DC590015FF23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3FF67F1888DC590015FF23 /* CoreGraphics.framework */; };
+		9D3FF6821888DC590015FF23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3FF6811888DC590015FF23 /* UIKit.framework */; };
+		9D3FF6881888DC590015FF23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D3FF6861888DC590015FF23 /* InfoPlist.strings */; };
+		9D3FF68A1888DC590015FF23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3FF6891888DC590015FF23 /* main.m */; };
+		9D3FF68E1888DC590015FF23 /* YUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3FF68D1888DC590015FF23 /* YUAppDelegate.m */; };
+		9D3FF6941888DC590015FF23 /* YUDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3FF6931888DC590015FF23 /* YUDemoViewController.m */; };
+		9D3FF6961888DC590015FF23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D3FF6951888DC590015FF23 /* Images.xcassets */; };
+		9D3FF6B81888DF060015FF23 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D3FF6B41888DF060015FF23 /* 1.jpg */; };
+		9D3FF6B91888DF060015FF23 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D3FF6B51888DF060015FF23 /* 2.jpg */; };
+		9D3FF6BA1888DF060015FF23 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D3FF6B61888DF060015FF23 /* 3.jpg */; };
+		9D3FF6BB1888DF060015FF23 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D3FF6B71888DF060015FF23 /* 0.jpg */; };
+		9D66EC8E188AC0DC0090DBB4 /* YUGLViewTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D66EC8D188AC0DC0090DBB4 /* YUGLViewTransition.m */; };
+		9D66EC94188AC45F0090DBB4 /* YUGLTransitionRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D66EC93188AC45F0090DBB4 /* YUGLTransitionRenderer.m */; };
+		9D6F9D6F188B9E6A00ECC3B9 /* YUGLDoorwayTransitionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6F9D6E188B9E6A00ECC3B9 /* YUGLDoorwayTransitionFilter.m */; };
+		9D7D6F76188A29C1009AB974 /* YUGLViewControllerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D6F66188A29C1009AB974 /* YUGLViewControllerTransition.m */; };
+		9D7D6F78188A29C1009AB974 /* YUGLCrossDissolveTransitionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D6F6A188A29C1009AB974 /* YUGLCrossDissolveTransitionFilter.m */; };
+		9D7D6F79188A29C1009AB974 /* YUGLFlashTransitionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D6F6D188A29C1009AB974 /* YUGLFlashTransitionFilter.m */; };
+		9D7D6F7A188A29C1009AB974 /* YUGLFlyeyeTransitionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D6F6F188A29C1009AB974 /* YUGLFlyeyeTransitionFilter.m */; };
+		9D7D6F7B188A29C1009AB974 /* YUGLRippleTransitionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D6F71188A29C1009AB974 /* YUGLRippleTransitionFilter.m */; };
+		9D7D6F7C188A29C1009AB974 /* YUGLSwapTransitionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D6F73188A29C1009AB974 /* YUGLSwapTransitionFilter.m */; };
+		9D7D6F7D188A29C1009AB974 /* YUMediaTimingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D6F75188A29C1009AB974 /* YUMediaTimingFunction.m */; };
+		9DC9B4CC19E52D9F006E3D73 /* YUGLCrossZoomTransitionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC9B4CB19E52D9F006E3D73 /* YUGLCrossZoomTransitionFilter.m */; };
+		9DC9B4CF19E533A8006E3D73 /* YUGLPowDistortionTransitionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC9B4CE19E533A8006E3D73 /* YUGLPowDistortionTransitionFilter.m */; };
+		9DC9B4D519E536D8006E3D73 /* YUGLPixelizeTransitionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC9B4D419E536D8006E3D73 /* YUGLPixelizeTransitionFilter.m */; };
+		DE4B025A6DC34AFE9B2D3408 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3E9520FDEC46BEB6AD1B1A /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D3FF67A1888DC590015FF23 /* YUGLViewControllerTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUGLViewControllerTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D3FF67D1888DC590015FF23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D3FF67F1888DC590015FF23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D3FF6811888DC590015FF23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D3FF6851888DC590015FF23 /* YUGLViewControllerTransitionDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YUGLViewControllerTransitionDemo-Info.plist"; sourceTree = "<group>"; };
+		9D3FF6871888DC590015FF23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D3FF6891888DC590015FF23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D3FF68B1888DC590015FF23 /* YUGLViewControllerTransitionDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YUGLViewControllerTransitionDemo-Prefix.pch"; sourceTree = "<group>"; };
+		9D3FF68C1888DC590015FF23 /* YUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUAppDelegate.h; sourceTree = "<group>"; };
+		9D3FF68D1888DC590015FF23 /* YUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUAppDelegate.m; sourceTree = "<group>"; };
+		9D3FF6921888DC590015FF23 /* YUDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUDemoViewController.h; sourceTree = "<group>"; };
+		9D3FF6931888DC590015FF23 /* YUDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUDemoViewController.m; sourceTree = "<group>"; };
+		9D3FF6951888DC590015FF23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9D3FF69C1888DC590015FF23 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9D3FF6B41888DF060015FF23 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		9D3FF6B51888DF060015FF23 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		9D3FF6B61888DF060015FF23 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		9D3FF6B71888DF060015FF23 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		9D66EC8C188AC0DC0090DBB4 /* YUGLViewTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUGLViewTransition.h; sourceTree = "<group>"; };
+		9D66EC8D188AC0DC0090DBB4 /* YUGLViewTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUGLViewTransition.m; sourceTree = "<group>"; };
+		9D66EC92188AC45F0090DBB4 /* YUGLTransitionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUGLTransitionRenderer.h; sourceTree = "<group>"; };
+		9D66EC93188AC45F0090DBB4 /* YUGLTransitionRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUGLTransitionRenderer.m; sourceTree = "<group>"; };
+		9D6F9D6D188B9E6A00ECC3B9 /* YUGLDoorwayTransitionFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUGLDoorwayTransitionFilter.h; sourceTree = "<group>"; };
+		9D6F9D6E188B9E6A00ECC3B9 /* YUGLDoorwayTransitionFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUGLDoorwayTransitionFilter.m; sourceTree = "<group>"; };
+		9D6F9D70188C109E00ECC3B9 /* YUGLTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUGLTransition.h; sourceTree = "<group>"; };
+		9D7D6F65188A29C1009AB974 /* YUGLViewControllerTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUGLViewControllerTransition.h; sourceTree = "<group>"; };
+		9D7D6F66188A29C1009AB974 /* YUGLViewControllerTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUGLViewControllerTransition.m; sourceTree = "<group>"; };
+		9D7D6F69188A29C1009AB974 /* YUGLCrossDissolveTransitionFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUGLCrossDissolveTransitionFilter.h; sourceTree = "<group>"; };
+		9D7D6F6A188A29C1009AB974 /* YUGLCrossDissolveTransitionFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUGLCrossDissolveTransitionFilter.m; sourceTree = "<group>"; };
+		9D7D6F6B188A29C1009AB974 /* YUGLTransitionFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUGLTransitionFilter.h; sourceTree = "<group>"; };
+		9D7D6F6C188A29C1009AB974 /* YUGLFlashTransitionFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUGLFlashTransitionFilter.h; sourceTree = "<group>"; };
+		9D7D6F6D188A29C1009AB974 /* YUGLFlashTransitionFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUGLFlashTransitionFilter.m; sourceTree = "<group>"; };
+		9D7D6F6E188A29C1009AB974 /* YUGLFlyeyeTransitionFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUGLFlyeyeTransitionFilter.h; sourceTree = "<group>"; };
+		9D7D6F6F188A29C1009AB974 /* YUGLFlyeyeTransitionFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUGLFlyeyeTransitionFilter.m; sourceTree = "<group>"; };
+		9D7D6F70188A29C1009AB974 /* YUGLRippleTransitionFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUGLRippleTransitionFilter.h; sourceTree = "<group>"; };
+		9D7D6F71188A29C1009AB974 /* YUGLRippleTransitionFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUGLRippleTransitionFilter.m; sourceTree = "<group>"; };
+		9D7D6F72188A29C1009AB974 /* YUGLSwapTransitionFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUGLSwapTransitionFilter.h; sourceTree = "<group>"; };
+		9D7D6F73188A29C1009AB974 /* YUGLSwapTransitionFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUGLSwapTransitionFilter.m; sourceTree = "<group>"; };
+		9D7D6F74188A29C1009AB974 /* YUMediaTimingFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUMediaTimingFunction.h; sourceTree = "<group>"; };
+		9D7D6F75188A29C1009AB974 /* YUMediaTimingFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUMediaTimingFunction.m; sourceTree = "<group>"; };
+		9DC9B4CA19E52D9F006E3D73 /* YUGLCrossZoomTransitionFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUGLCrossZoomTransitionFilter.h; sourceTree = "<group>"; };
+		9DC9B4CB19E52D9F006E3D73 /* YUGLCrossZoomTransitionFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUGLCrossZoomTransitionFilter.m; sourceTree = "<group>"; };
+		9DC9B4CD19E533A8006E3D73 /* YUGLPowDistortionTransitionFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUGLPowDistortionTransitionFilter.h; sourceTree = "<group>"; };
+		9DC9B4CE19E533A8006E3D73 /* YUGLPowDistortionTransitionFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUGLPowDistortionTransitionFilter.m; sourceTree = "<group>"; };
+		9DC9B4D319E536D8006E3D73 /* YUGLPixelizeTransitionFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUGLPixelizeTransitionFilter.h; sourceTree = "<group>"; };
+		9DC9B4D419E536D8006E3D73 /* YUGLPixelizeTransitionFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUGLPixelizeTransitionFilter.m; sourceTree = "<group>"; };
+		A94BD1950F0843ABB258FA31 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		EF3E9520FDEC46BEB6AD1B1A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D3FF6771888DC590015FF23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D3FF6801888DC590015FF23 /* CoreGraphics.framework in Frameworks */,
+				9D3FF6821888DC590015FF23 /* UIKit.framework in Frameworks */,
+				9D3FF67E1888DC590015FF23 /* Foundation.framework in Frameworks */,
+				DE4B025A6DC34AFE9B2D3408 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D3FF6711888DC590015FF23 = {
+			isa = PBXGroup;
+			children = (
+				9D3FF6831888DC590015FF23 /* YUGLViewControllerTransitionDemo */,
+				9D3FF67C1888DC590015FF23 /* Frameworks */,
+				9D3FF67B1888DC590015FF23 /* Products */,
+				A94BD1950F0843ABB258FA31 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		9D3FF67B1888DC590015FF23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D3FF67A1888DC590015FF23 /* YUGLViewControllerTransitionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D3FF67C1888DC590015FF23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D3FF67D1888DC590015FF23 /* Foundation.framework */,
+				9D3FF67F1888DC590015FF23 /* CoreGraphics.framework */,
+				9D3FF6811888DC590015FF23 /* UIKit.framework */,
+				9D3FF69C1888DC590015FF23 /* XCTest.framework */,
+				EF3E9520FDEC46BEB6AD1B1A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D3FF6831888DC590015FF23 /* YUGLViewControllerTransitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9D7D6F64188A29C1009AB974 /* YUGLTransition */,
+				9D3FF68C1888DC590015FF23 /* YUAppDelegate.h */,
+				9D3FF68D1888DC590015FF23 /* YUAppDelegate.m */,
+				9D3FF6921888DC590015FF23 /* YUDemoViewController.h */,
+				9D3FF6931888DC590015FF23 /* YUDemoViewController.m */,
+				9D3FF6B31888DF060015FF23 /* Images */,
+				9D3FF6951888DC590015FF23 /* Images.xcassets */,
+				9D3FF6841888DC590015FF23 /* Supporting Files */,
+			);
+			path = YUGLViewControllerTransitionDemo;
+			sourceTree = "<group>";
+		};
+		9D3FF6841888DC590015FF23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D3FF6851888DC590015FF23 /* YUGLViewControllerTransitionDemo-Info.plist */,
+				9D3FF6861888DC590015FF23 /* InfoPlist.strings */,
+				9D3FF6891888DC590015FF23 /* main.m */,
+				9D3FF68B1888DC590015FF23 /* YUGLViewControllerTransitionDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D3FF6B31888DF060015FF23 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9D3FF6B71888DF060015FF23 /* 0.jpg */,
+				9D3FF6B41888DF060015FF23 /* 1.jpg */,
+				9D3FF6B51888DF060015FF23 /* 2.jpg */,
+				9D3FF6B61888DF060015FF23 /* 3.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9D7D6F64188A29C1009AB974 /* YUGLTransition */ = {
+			isa = PBXGroup;
+			children = (
+				9D6F9D70188C109E00ECC3B9 /* YUGLTransition.h */,
+				9D66EC92188AC45F0090DBB4 /* YUGLTransitionRenderer.h */,
+				9D66EC93188AC45F0090DBB4 /* YUGLTransitionRenderer.m */,
+				9D66EC8C188AC0DC0090DBB4 /* YUGLViewTransition.h */,
+				9D66EC8D188AC0DC0090DBB4 /* YUGLViewTransition.m */,
+				9D7D6F65188A29C1009AB974 /* YUGLViewControllerTransition.h */,
+				9D7D6F66188A29C1009AB974 /* YUGLViewControllerTransition.m */,
+				9D7D6F74188A29C1009AB974 /* YUMediaTimingFunction.h */,
+				9D7D6F75188A29C1009AB974 /* YUMediaTimingFunction.m */,
+				9D7D6F6B188A29C1009AB974 /* YUGLTransitionFilter.h */,
+				9D7D6F69188A29C1009AB974 /* YUGLCrossDissolveTransitionFilter.h */,
+				9D7D6F6A188A29C1009AB974 /* YUGLCrossDissolveTransitionFilter.m */,
+				9D7D6F6C188A29C1009AB974 /* YUGLFlashTransitionFilter.h */,
+				9D7D6F6D188A29C1009AB974 /* YUGLFlashTransitionFilter.m */,
+				9D7D6F6E188A29C1009AB974 /* YUGLFlyeyeTransitionFilter.h */,
+				9D7D6F6F188A29C1009AB974 /* YUGLFlyeyeTransitionFilter.m */,
+				9D7D6F70188A29C1009AB974 /* YUGLRippleTransitionFilter.h */,
+				9D7D6F71188A29C1009AB974 /* YUGLRippleTransitionFilter.m */,
+				9D7D6F72188A29C1009AB974 /* YUGLSwapTransitionFilter.h */,
+				9D7D6F73188A29C1009AB974 /* YUGLSwapTransitionFilter.m */,
+				9D6F9D6D188B9E6A00ECC3B9 /* YUGLDoorwayTransitionFilter.h */,
+				9D6F9D6E188B9E6A00ECC3B9 /* YUGLDoorwayTransitionFilter.m */,
+				9DC9B4CA19E52D9F006E3D73 /* YUGLCrossZoomTransitionFilter.h */,
+				9DC9B4CB19E52D9F006E3D73 /* YUGLCrossZoomTransitionFilter.m */,
+				9DC9B4CD19E533A8006E3D73 /* YUGLPowDistortionTransitionFilter.h */,
+				9DC9B4CE19E533A8006E3D73 /* YUGLPowDistortionTransitionFilter.m */,
+				9DC9B4D319E536D8006E3D73 /* YUGLPixelizeTransitionFilter.h */,
+				9DC9B4D419E536D8006E3D73 /* YUGLPixelizeTransitionFilter.m */,
+			);
+			name = YUGLTransition;
+			path = ../../YUGLTransition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D3FF6791888DC590015FF23 /* YUGLViewControllerTransitionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D3FF6AC1888DC590015FF23 /* Build configuration list for PBXNativeTarget "YUGLViewControllerTransitionDemo" */;
+			buildPhases = (
+				59DF8DF4AF3F483AB231ECF4 /* Check Pods Manifest.lock */,
+				9D3FF6761888DC590015FF23 /* Sources */,
+				9D3FF6771888DC590015FF23 /* Frameworks */,
+				9D3FF6781888DC590015FF23 /* Resources */,
+				D8448C3658C24A4EB3974F20 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YUGLViewControllerTransitionDemo;
+			productName = YUGLViewControllerTransitionDemo;
+			productReference = 9D3FF67A1888DC590015FF23 /* YUGLViewControllerTransitionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D3FF6721888DC590015FF23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YU;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = YuAo;
+			};
+			buildConfigurationList = 9D3FF6751888DC590015FF23 /* Build configuration list for PBXProject "YUGLViewControllerTransitionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D3FF6711888DC590015FF23;
+			productRefGroup = 9D3FF67B1888DC590015FF23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D3FF6791888DC590015FF23 /* YUGLViewControllerTransitionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D3FF6781888DC590015FF23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D3FF6BB1888DF060015FF23 /* 0.jpg in Resources */,
+				9D3FF6BA1888DF060015FF23 /* 3.jpg in Resources */,
+				9D3FF6B81888DF060015FF23 /* 1.jpg in Resources */,
+				9D3FF6961888DC590015FF23 /* Images.xcassets in Resources */,
+				9D3FF6B91888DF060015FF23 /* 2.jpg in Resources */,
+				9D3FF6881888DC590015FF23 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59DF8DF4AF3F483AB231ECF4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8448C3658C24A4EB3974F20 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D3FF6761888DC590015FF23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7D6F76188A29C1009AB974 /* YUGLViewControllerTransition.m in Sources */,
+				9DC9B4CC19E52D9F006E3D73 /* YUGLCrossZoomTransitionFilter.m in Sources */,
+				9D66EC94188AC45F0090DBB4 /* YUGLTransitionRenderer.m in Sources */,
+				9D3FF6941888DC590015FF23 /* YUDemoViewController.m in Sources */,
+				9D3FF68E1888DC590015FF23 /* YUAppDelegate.m in Sources */,
+				9DC9B4D519E536D8006E3D73 /* YUGLPixelizeTransitionFilter.m in Sources */,
+				9D7D6F7C188A29C1009AB974 /* YUGLSwapTransitionFilter.m in Sources */,
+				9D7D6F7B188A29C1009AB974 /* YUGLRippleTransitionFilter.m in Sources */,
+				9D7D6F7A188A29C1009AB974 /* YUGLFlyeyeTransitionFilter.m in Sources */,
+				9D7D6F79188A29C1009AB974 /* YUGLFlashTransitionFilter.m in Sources */,
+				9D7D6F78188A29C1009AB974 /* YUGLCrossDissolveTransitionFilter.m in Sources */,
+				9D3FF68A1888DC590015FF23 /* main.m in Sources */,
+				9D7D6F7D188A29C1009AB974 /* YUMediaTimingFunction.m in Sources */,
+				9DC9B4CF19E533A8006E3D73 /* YUGLPowDistortionTransitionFilter.m in Sources */,
+				9D6F9D6F188B9E6A00ECC3B9 /* YUGLDoorwayTransitionFilter.m in Sources */,
+				9D66EC8E188AC0DC0090DBB4 /* YUGLViewTransition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D3FF6861888DC590015FF23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D3FF6871888DC590015FF23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D3FF6AA1888DC590015FF23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D3FF6AB1888DC590015FF23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D3FF6AD1888DC590015FF23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A94BD1950F0843ABB258FA31 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YUGLViewControllerTransitionDemo/YUGLViewControllerTransitionDemo-Prefix.pch";
+				INFOPLIST_FILE = "YUGLViewControllerTransitionDemo/YUGLViewControllerTransitionDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D3FF6AE1888DC590015FF23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A94BD1950F0843ABB258FA31 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YUGLViewControllerTransitionDemo/YUGLViewControllerTransitionDemo-Prefix.pch";
+				INFOPLIST_FILE = "YUGLViewControllerTransitionDemo/YUGLViewControllerTransitionDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D3FF6751888DC590015FF23 /* Build configuration list for PBXProject "YUGLViewControllerTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D3FF6AA1888DC590015FF23 /* Debug */,
+				9D3FF6AB1888DC590015FF23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D3FF6AC1888DC590015FF23 /* Build configuration list for PBXNativeTarget "YUGLViewControllerTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D3FF6AD1888DC590015FF23 /* Debug */,
+				9D3FF6AE1888DC590015FF23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D3FF6721888DC590015FF23 /* Project object */;
+}
